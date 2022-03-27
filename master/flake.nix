@@ -11,6 +11,7 @@
   inputs.src-AntTweakBar-master.ref   = "refs/heads/master";
   inputs.src-AntTweakBar-master.owner = "krux02";
   inputs.src-AntTweakBar-master.repo  = "nimAntTweakBar";
+  inputs.src-AntTweakBar-master.dir   = "";
   inputs.src-AntTweakBar-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:

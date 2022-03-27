@@ -11,6 +11,7 @@
   inputs.src-AntTweakBar-v1_0_2.ref   = "refs/tags/v1.0.2";
   inputs.src-AntTweakBar-v1_0_2.owner = "krux02";
   inputs.src-AntTweakBar-v1_0_2.repo  = "nimAntTweakBar";
+  inputs.src-AntTweakBar-v1_0_2.dir   = "";
   inputs.src-AntTweakBar-v1_0_2.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
